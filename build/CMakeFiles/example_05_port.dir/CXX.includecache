@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dunalnel/projects/example_05_port/main.cpp
+iostream
+-
+cmath
+-
+ctime
+-
+limits
+-
+stdlib.h
+-
+
